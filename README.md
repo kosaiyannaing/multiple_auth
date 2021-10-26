@@ -7,13 +7,15 @@ composer install
 
 Step 3
 php artisan key:generate
+
 php artisan migrate
+
 php artisan db:seed --class=AdminSeeder
 
 Step 4
-php artisan serve
+php artisan serve --port=8888
 
-localhost:8000
+http://localhost:8888
 
 admin login
 
