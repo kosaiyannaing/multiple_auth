@@ -16,5 +16,7 @@ php artisan serve
 localhost:8000
 
 admin login
+
 email: admin@gmail.com
+
 pass: welcome123!
